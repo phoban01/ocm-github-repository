@@ -1,1 +1,23 @@
-ewogICJuYW1lIjogIm9jbS5zb2Z0d2FyZS90ZXN0IiwKICAidmVyc2lvbiI6ICJ2MS4wLjAiLAogICJwcm92aWRlciI6IHsKICAgIm5hbWUiOiAiYWNtZS5vcmciCiAgfSwKICAicmVzb3VyY2VzIjogWwogICB7CiAgICAibmFtZSI6ICJjb25maWciLAogICAgInR5cGUiOiAiZmlsZSIsCiAgICAiYWNjZXNzIjogewogICAgICJsb2NhbFJlZmVyZW5jZSI6ICJzaGEyNTY6ZmU2NDUwYTQ0OGM5NTQ5NWRjMWI1M2RiNTU2ODZlNTZiZGU4ZmE4YmE5OTAzYjUyZmYzZTA1MDcwZWI4NjI2ZSIsCiAgICAgIm1lZGlhVHlwZSI6ICJhcHBsaWNhdGlvbi94LXlhbWwiLAogICAgICJ0eXBlIjogImxvY2FsQmxvYi92MSIKICAgIH0sCiAgICAiZGlnZXN0IjogewogICAgICJoYXNoX2FsZ29yaXRobSI6ICJzaGEyNTYiLAogICAgICJub3JtYWxpc2F0aW9uX2FsZ29yaXRobSI6ICJqc29uL3YxIiwKICAgICAidmFsdWUiOiAiZmU2NDUwYTQ0OGM5NTQ5NWRjMWI1M2RiNTU2ODZlNTZiZGU4ZmE4YmE5OTAzYjUyZmYzZTA1MDcwZWI4NjI2ZSIKICAgIH0KICAgfQogIF0KIH0=
+{
+  "name": "ocm.software/test",
+  "version": "v1.0.0",
+  "provider": {
+   "name": "acme.org"
+  },
+  "resources": [
+   {
+    "name": "config",
+    "type": "file",
+    "access": {
+     "localReference": "sha256:fe6450a448c95495dc1b53db55686e56bde8fa8ba9903b52ff3e05070eb8626e",
+     "mediaType": "application/x-yaml",
+     "type": "localBlob/v1"
+    },
+    "digest": {
+     "hash_algorithm": "sha256",
+     "normalisation_algorithm": "json/v1",
+     "value": "fe6450a448c95495dc1b53db55686e56bde8fa8ba9903b52ff3e05070eb8626e"
+    }
+   }
+  ]
+ }
