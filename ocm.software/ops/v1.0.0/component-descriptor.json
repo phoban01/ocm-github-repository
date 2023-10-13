@@ -1,0 +1,23 @@
+{
+  "name": "ocm.software/ops",
+  "version": "v1.0.0",
+  "provider": {
+   "name": "acme.org"
+  },
+  "resources": [
+   {
+    "name": "config",
+    "type": "file",
+    "access": {
+     "localReference": "sha256:fe6450a448c95495dc1b53db55686e56bde8fa8ba9903b52ff3e05070eb8626e",
+     "mediaType": "application/x-yaml",
+     "type": "localBlob/v1"
+    },
+    "digest": {
+     "hash_algorithm": "sha256",
+     "normalisation_algorithm": "json/v1",
+     "value": "fe6450a448c95495dc1b53db55686e56bde8fa8ba9903b52ff3e05070eb8626e"
+    }
+   }
+  ]
+ }
